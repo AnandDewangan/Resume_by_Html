@@ -51,6 +51,12 @@ h1{
     
 }
 
+nav ul li a:hover{ 
+    font-family: 'Righteous', cursive;
+    color: transparent;
+    text-shadow: 3px 6px rgb(88, 4, 179), 2px 4px 1px rgb(245, 241, 243);
+    font-weight: 700;
+}
 /* Education section */
 
 section h2{
