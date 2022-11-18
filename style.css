@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header complete */
+
+.resume{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    float: left;
+    display: inline;
+    color: blue;
+    padding: 10px;
+}
+.nav{
+    list-style: none;
+    text-align: right;
+    background-color:burlywood;
+}
+.navigation{
+    display: inline-block;
+    padding: 1em;
+}
+img{
+    width: 20vw;
+    margin-left: 1em;
+}
+h1{
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+}
+.main{
+    font-family: 'Righteous', cursive;
+    text-shadow: 4px 4px 1px royalblue;
+    color: lightcoral;
+}
+.submain{
+    color: transparent;
+    text-shadow: 8px 8px 1px rgb(80, 5, 230), 4px 4px 3px burlywood;
+}
+.comment{
+    padding-left: 10px;
+    
+}
+
+/* Education section */
+
+section h2{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    color: forestgreen;
+    font-size: 2em;
+    margin:10px ;
+}
+table{
+    margin-left: 33%;
+    margin-top: 10px;
+}
+table th{
+    background-color: midnightblue;
+    color: chartreuse;
+    padding: 5px;
+}
+table tr{
+    background-color: lightyellow;
+    color: blue;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Internship section */
+
+h3, h4, h5{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: gray;
+}
+p, li{
+    text-align: center;
+}
+
+/* Footer section */
+footer h2{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    color: forestgreen;
+    font-size: 2em;
+    margin:10px ;
+}
+
+footer h2 ul a{
+    text-align: center;
+}
