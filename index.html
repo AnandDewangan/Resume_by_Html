@@ -6,29 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anand's Resume</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <header>
-        <table>
-            <tr>
-                <td><img style="float:left ;" width="20%" src="Anand.png" alt="Anand Dewangan photo">
-                    <h1><a href="https://www.linkedin.com/in/anand-dewangan/" target="_blank">Anand Dewangan</a></h1>
-                    <p><em> First solve a problem,<em> ❤️<em></em>Then write the Code.</em>🎶</p>
-                </td>
-            </tr>
-        </table>
+        <nav>
+            <ul class="nav">
+                <li class="logo">
+                    <h2 class="resume">Resume</h2>
+                </li>
+                <li class="navigation"><a href="#education">Education</a></li>
+                <li class="navigation"><a href="#internship">Internship</a></li>
+                <li class="navigation"><a href="#projects">Projects</a></li>
+                <li class="navigation"><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <img class="profile" src="Anand.png" alt="Anand Dewangan photo">
+        <h1 class="userName"><span class="main">ANAND </span><span class="submain">DEWANGAN</span></h1>
+        <p class="comment"><em><b> First solve a problem,<em> ❤️<em></em>Then write the Code.</b></em>🎶</p>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#internship">Internship</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact us</a></li>
-        </ul>
-        <hr>
-    </nav>
+    <br>
+    <hr>
+    <br>
 
     <main>
         <section id="education">
@@ -67,57 +68,60 @@
 
         <section id="internship">
             <h2>Internship</h2>
-            <h2>Newton School</h2>
-            <ul>
-                <h3>Java</h3>
-                <h4>DSA Assignment question solve - 260</h4>
-                <li>DSA 1</li>
-                <p>Arrays, Sorting, Searching, Hashing</p>
-                <li>DSA 2</li>
-                <p>String, Linked List, Stack, Queue</p>
-                <li>DSA 3</li>
-                <p>Recursion, Dynamic Programmin</p>
-                <li>DSA 4</li>
-                <p>Trees</p>
+            <h3>Newton School</h3>
+            <article>
+                <h4>Java</h4>
+                <li>DSA Assignment question solve - 260</li><br>
+                <h5>DSA 1</h5>
+                <li>Arrays, Sorting, Searching, Hashing</li><br>
+                <h5>DSA 2</h5>
+                <li>String, Linked List, Stack, Queue</li><br>
+                <h5>DSA 3</h5>
+                <li>Recursion, Dynamic Programmin</li><br>
+                <h5>DSA 4</h5>
+                <li>Trees</li>
                 <br>
-                <li>Contest</li>
-                <p>Contest question solve - 55</p>
+                <h4>Contest</h4>
+                <li>Contest problem solve - 55</li><br>
 
-                <li>Newton school question of the day</li>
-                <p>question solve - 10</p>
+                <h4>Newton school question of the day</h4>
+                <li>question solve - 10</li><br>
 
-                <li>Newton School Global Contest</li>
-                <p>Global Rank - 974</p>
-            </ul>
-            <h2>LeetCode Problems</h2>
-            <ul>
+                <h4>Newton School Global Contest</h4>
+                <li>Global Rank - 974</li><br>
+            </article>
+            <h3>LeetCode Problems</h3>
+            <article>
                 <li>Date 17/11/2022 problems solved - 137</li>
-            </ul>
+            </article>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
-            <ul>
-                <li>My Resume</li>
-                <p>Using Html build my resume</p>
-                <a href="">My Resume</a>
-                <br>
+            <article>
+                <ul>
+                    <h4><a href="">My Resume</a></h4>
+                    <p>Using Html build my resume</p>
+                    <br>
 
-                <li>Create Catering Service</li>
-                <p>Using Html build own father bussiness website Catering Services</p>
-                <a href="">Catering Services</a>
-            </ul>
+                    <h4><a href="">Create Catering Service</a></h4>
+                    <p>Using Html build own father bussiness website Catering Services</p><br>
+                </ul>
+            </article>
         </section>
     </main>
 
+    <hr>
     <footer id="contact">
         <h2>Contact Me</h2>
         <ul>
-            <a href="tel:+918963906336">📞 Click to call us</a><br>
-            <a href="https://mail.google.com/mail/#inbox/messageId">📧 ananddewangan170@gmail.com</a>
+            <li><a href="tel:+918963906336">📞 Click to call us</a></li>
+            <li><a href="https://mail.google.com/mail/#inbox/messageId">📧 ananddewangan170@gmail.com</a></li>
         </ul>
         <br>
         <p><a href="#">Back to Home Page</a></p>
+        <br>
+        <br>
     </footer>
 </body>
 
